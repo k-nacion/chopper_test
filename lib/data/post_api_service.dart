@@ -1,6 +1,6 @@
 import 'package:chopper/chopper.dart';
 
-// part 'post_api_service.chopper.dart';
+part 'post_api_service.chopper.dart';
 
 @ChopperApi(baseUrl: 'https://jsonplaceholder.typicode.com/posts')
 abstract class PostApiService extends ChopperService {
