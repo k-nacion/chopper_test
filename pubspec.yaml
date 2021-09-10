@@ -34,6 +34,7 @@ dependencies:
   colours: ^0.0.2
 
 dev_dependencies:
+  build_runner: ^2.1.2
   chopper_generator: ^4.0.1
   flutter_test:
     sdk: flutter
