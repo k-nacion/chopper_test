@@ -1,18 +1,15 @@
 class Post {
   int _userId;
-
   int get userId => _userId;
 
   int _id;
-
   int get id => _id;
 
   String _title;
-
   String get title => _title;
 
-  String get body => _body;
   String _body;
+  String get body => _body;
 
   Post({
     required int userId,
