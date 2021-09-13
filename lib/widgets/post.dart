@@ -19,6 +19,8 @@ class Post extends StatelessWidget {
         children: [
           Text(
             post.title,
+            softWrap: false,
+            overflow: TextOverflow.ellipsis,
             style: TextStyle(
               color: Colors.black.withOpacity(.5),
             ),
